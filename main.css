@@ -1,0 +1,981 @@
+header
+{
+    height: 100vh;
+    widows: 100vw;
+}
+.navbar-nav .nav-item a
+{
+    color: black;
+    text-decoration: none;
+}
+.navbar-nav .nav-item a:hover
+{
+    color: black;
+    border-bottom: solid black;
+}
+.navbar-nav #menu-aktif a
+{
+    color: black;
+    border-bottom: solid black;
+}
+.navbar
+{
+    background-color:rgba(118, 238, 20, 0.8);
+}
+.mark1
+{
+    font-size: 6vh;
+    margin-left: 8vw;
+    margin-top: 3vh;
+    font-family: 'Sniglet',
+    cursive;
+}
+.navbar-nav
+{
+    margin-left: 50vw;
+    margin-top: 1vh;
+}
+.nav-item
+{
+    margin-left: 10px;
+    font-family: 'Sniglet',
+    cursive;
+}
+#gb-background-header
+{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.head-mark1
+{
+    position: absolute;
+    top: 30vh;
+    left: 6vw;
+    font-family: 'Lobster', cursive;
+    font-size: 10vh;
+}
+.head-mark2
+{
+    position: absolute;
+    top : 45vh;
+    left : 18vw;
+    font-family: 'Lobster', cursive;
+    font-size: 10vh;
+}
+.head-mark3
+{
+    position: absolute;
+    top : 60vh;
+    left : 22vw;
+    font-family: 'Lobster', cursive;
+    font-size: 10vh;
+}
+#panel
+{
+    position: absolute;
+    top: 80vh;
+    left: 20vw;
+}
+.panel-mark
+{
+    border-style: solid;
+    border-width: 0.7vh;
+    border-radius: 10px;
+    padding: 1vh;
+    font-family: 'Sniglet',
+    cursive;
+    color: black;
+    font-size: 2vh;
+}
+#panel a
+{
+    text-decoration: none;
+}
+#panel a:hover .panel-mark
+{
+    background-color: darksalmon;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#article
+{
+    height: 185vh;
+    width: 100vw;
+    background-color: cornsilk;
+}
+.words
+{
+    padding-top: 12vh;
+    padding-left: 9vw;
+    font-size: 5vh;
+    font-family: 'Abril Fatface',
+    cursive;
+}
+.words-child
+{
+    padding-left: 14vw;
+    padding-top: 3vh;
+    font-size: 5vh;
+    font-family: 'Yanone Kaffeesatz',
+    sans-serif;
+}
+#gbr-des-1
+{
+    width: 7vh;
+    position: absolute;
+    margin-top: 2vh;
+    margin-left: 10vw;
+}
+#gbr-des-2
+{
+    width: 7vh;
+    position: absolute;
+    margin-top: 2vh;
+    margin-left: 10vw;
+}
+#gbr-des-3
+{
+    width: 7vh;
+    position: absolute;
+    margin-top: 2vh;
+    margin-left: 10vw;
+}
+.describing-text
+{
+    padding-left: 16vw;
+    padding-top: 1vh;
+}
+#gambar-section1
+{
+    width: 45vw;
+    position: absolute;
+    top: 110vh;
+    right: 8vw;
+}
+#facts
+{
+    background-color: rgb(195, 207, 212,0.3);
+    margin-left: -1vw;
+    margin-right: -1vw;
+    margin-top: 20vh;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}
+#header-facts
+{
+    font-size: 2vw;
+    margin-left: 44vw;
+    padding-top: 2vh;
+    font-family: 'Abril Fatface',
+    cursive;
+}
+.list-awal-facts
+{
+    list-style-type: none;
+    display: inline;
+    margin-left: 1vw;
+}
+.isi-listawal
+{
+    display: inline;
+    font-size: 5vw;
+    margin-left: 13vw;
+    font-family: 'Yanone Kaffeesatz',
+    sans-serif;
+}
+.isi-facts1
+{
+    position: relative;
+    font-size: 2vw;
+    margin-left: 18vw;
+    font-family: 'Yanone Kaffeesatz',
+    sans-serif;
+    margin-top: -2vh;
+}
+.isi-facts2
+{
+    position: relative;
+    font-size: 2vw;
+    margin-left: 37vw;
+    margin-top: -6.5vh;
+    font-family: 'Yanone Kaffeesatz',
+    sans-serif;
+}
+.isi-facts3
+{
+    position: relative;
+    font-size: 2vw;
+    margin-left: 56.5vw;
+    margin-top: -6vh;
+    font-family: 'Yanone Kaffeesatz',
+    sans-serif;
+}
+.isi-facts4
+{
+    position: relative;
+    font-size: 2vw;
+    margin-left: 77vw;
+    margin-top: -6vh;
+    font-family: 'Yanone Kaffeesatz',
+    sans-serif;
+}
+.service-header
+{
+    margin-left: 44vw;
+    margin-top: 10vh;
+    font-family: 'Abril Fatface',
+    cursive;
+}
+
+
+.card
+{
+    width: 20vw;
+    height: 18vh;
+    margin-left: 20vw;
+    margin-top: 5vh;
+}
+#cincin
+{
+    width: 7vw;
+    height: 7vh;
+    position: absolute;
+    top: 0.5vh;
+    margin-left: 0.5vw;
+}
+#lingkaran
+{
+    width: 8vw;
+    height: 8vh;
+    background-color: rgb(195, 207, 212, 1);
+    border-radius: 100%;
+    position: relative;
+    margin-top: -4vh;
+    margin-left: 6vw;
+}
+.card-body
+{
+    font-family: 'Yanone Kaffeesatz',
+    sans-serif;
+    font-weight: 400;
+    font-size: 3vh;
+    text-align: center;
+    color: black;
+}
+.tombol
+{
+    position: absolute;
+    top: 11vh;
+    left: 6.5vw;
+}
+.tombol-1
+{
+    border-style: solid;
+    border-width: 0.5vh;
+    border-radius: 10px;
+    padding: 0.5vh;
+    font-family: 'Sniglet',
+    cursive;
+    color: black;
+    font-size: 2vh;
+}
+
+div.card.bg-info div.tombol div.tombol-1 a#linkporto
+{
+    text-decoration: none;
+    color: black;
+}
+
+div.card.bg-info div.tombol :hover
+{
+    background-color: darksalmon;
+    text-decoration: none;
+    transition: 0.5s;
+}
+#card2
+{
+    position: absolute;
+    top: 225.6vh;
+    left: 35vw;
+}
+#daki
+{
+    width: 7vw;
+    height: 7vh;
+    position: absolute;
+    top: 0.5vh;
+    margin-left: 1vw;
+}
+#card3
+{
+    position: absolute;
+    top: 255vh;
+    left: 18vw;
+}
+
+#kaki
+{
+    height: 20vh;
+    width: 100vw;
+    background-color: coral;
+}
+#kaki-text
+{
+    font-family: 'Sniglet',
+    cursive;
+    font-weight: 600;
+    font-size: 15vh;
+    margin-left: 3vw;
+    padding-top: 1vh;
+}
+#fb
+{
+    width: 3vw;
+    position: absolute;
+    top: 296vh;
+    left: 75vw;
+}
+#ig
+{
+    width: 3vw;
+    position: absolute;
+    top: 296vh;
+    left: 80vw;
+}
+#linkedin
+{
+     width: 3vw;
+     position: absolute;
+     top: 296vh;
+     left: 85vw;
+}
+#twit
+{
+     width: 3vw;
+     position: absolute;
+     top: 296vh;
+     left: 90vw;
+}
+
+
+
+
+
+
+.splitview {
+    position: relative;
+    width: 100%;
+    min-height: 45vw;
+    overflow: hidden;
+}
+
+.panel {
+    position: absolute;
+    width: 100vw;
+    min-height: 45vw;
+    overflow: hidden;
+}
+
+.panel .content {
+    position: absolute;
+    width: 100vw;
+    min-height: 45vw;
+    color: #FFF;
+}
+
+.panel .description {
+    width: 25%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.panel img {
+    box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.15);
+    width: 35%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.bottom {
+    background-color: rgb(77, 69, 173);
+    z-index: 1;
+}
+
+.bottom .description {
+    right: 5%;
+}
+
+.top {
+    background-color: rgb(44, 44, 44);
+    z-index: 2;
+    width: 50vw;
+
+    /*-webkit-clip-path: polygon(60% 0, 100% 0, 100% 100%, 40% 100%);
+    clip-path: polygon(60% 0, 100% 0, 100% 100%, 40% 100%);*/
+}
+
+.top .description {
+    left: 5%;
+}
+
+/* Handle. */
+.handle {
+    height: 100%;
+    position: absolute;
+    display: block;
+    background-color: rgb(253, 171, 0);
+    width: 5px;
+    top: 0;
+    left: 50%;
+    z-index: 3;
+}
+
+/* Skewed. */
+.skewed .handle {
+    top: 50%;
+    transform: rotate(30deg) translateY(-50%);
+    height: 200%;
+    -webkit-transform-origin: top;
+    -moz-transform-origin: top;
+    transform-origin: top;
+}
+
+.skewed .top {
+    transform: skew(-30deg);
+    margin-left: -1000px;
+    width: calc(50vw + 1000px);
+}
+
+.skewed .top .content {
+    transform: skew(30deg);
+    margin-left: 1000px;
+}
+
+/* Responsive. */
+@media (max-width: 900px) {
+    body {
+        font-size: 75%;
+    }
+}
+#header-2
+{
+    height: 80vh;
+    width: 100vw;
+}
+#article-2
+{
+    height: 470vh;
+    width: 100vw;
+    background-color: cornsilk;
+}
+#header-porto
+{
+    padding-top: 20vh;
+    font-weight: 800;
+    font-family: 'Abril Fatface',
+    cursive;
+    font-size: 4vh;
+    text-align: center;
+}
+.kartu
+{
+    width: 50vw;
+    height: 35vh;
+    margin-left: 8vw;
+    box-shadow: 2px 2px 20px rgb(167, 185, 192, 0.3);
+}
+#img-porto1
+{
+    width: 30vw;
+    height: 35vh;
+}
+.penjelas-head
+{
+    position: absolute;
+    left: 40vw;
+    top: 120vh;
+}
+.penjelas-1
+{
+    font-size: 5vh;
+    margin-top: -3vh;
+    text-align: center;
+    font-family: 'Abril Fatface',
+    cursive;
+}
+.penjelas-2
+{
+    margin-top: 7vh;
+    font-weight: 800;
+    font-size: 2.5vh;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz',
+    sans-serif;
+}
+.penjelas-3
+{
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz',
+    sans-serif;
+    font-weight: 800;
+    font-size: 2.5vh;
+}
+.penjelas-4
+{
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz',
+    sans-serif;
+    font-weight: 800;
+    font-size: 2.5vh;
+}
+
+.kartu-2
+{
+    width: 50vw;
+    height: 35vh;
+    float: right;
+    box-shadow: 2px 2px 20px rgb(167, 185, 192, 0.3);
+    margin-right: 8vw;
+    margin-top: 7vh;
+}
+#img-porto2
+{
+    width: 30vw;
+    height: 35vh;
+    float: right;
+}
+.penjelas-head2
+{
+    position: absolute;
+    top: 164vh;
+    left: 45vw;
+}
+
+.kartu-3
+{
+    width: 50vw;
+    height: 35vh;
+    margin-left: 8vw;
+    margin-top: 50vh;
+    box-shadow: 2px 2px 20px rgb(167, 185, 192, 0.3);
+}
+.penjelas-head3
+{
+    position: absolute;
+    top: 205vh;
+    left: 41vw;
+}
+.kartu-4
+{
+    width: 50vw;
+    height: 35vh;
+    float: right;
+    box-shadow: 2px 2px 20px rgb(167, 185, 192, 0.3);
+    margin-right: 8vw;
+    margin-top: 7vh;
+}
+.penjelas-head4
+{
+    position: absolute;
+    top: 246vh;
+    left: 45vw;
+}
+.kartu-5
+{
+    width: 50vw;
+    height: 35vh;
+    margin-left: 8vw;
+    margin-top: 50vh;
+    box-shadow: 2px 2px 20px rgb(167, 185, 192, 0.3);
+}
+.penjelas-head5
+{
+     position: absolute;
+     top: 290vh;
+     left: 41vw;
+}
+.penjelas-1ad
+{
+    font-size: 5vh;
+    margin-top: -7vh;
+    text-align: center;
+    font-family: 'Abril Fatface',
+    cursive;
+    margin-left: -5vw;
+}
+.penjelas-2ad
+{
+    font-size: 5vh;
+    margin-top: 0vh;
+    text-align: center;
+    font-family: 'Abril Fatface',
+    cursive;
+    margin-left: 3vw;
+}
+.kartu-6
+{
+    width: 50vw;
+    height: 35vh;
+    float: right;
+    box-shadow: 2px 2px 20px rgb(167, 185, 192, 0.3);
+    margin-right: 8vw;
+    margin-top: 7vh;
+}
+.penjelas-head6
+{
+    position: absolute;
+    top: 332vh;
+    left: 47vw;
+}
+.kartu-7
+{
+    width: 50vw;
+    height: 35vh;
+    margin-left: 8vw;
+    margin-top: 50vh;
+    box-shadow: 2px 2px 20px rgb(167, 185, 192, 0.3);
+}
+.penjelas-head7
+{
+     position: absolute;
+     top: 375vh;
+     left: 40vw;
+}
+.kartu-8
+{
+    width: 50vw;
+    height: 35vh;
+    float: right;
+    box-shadow: 2px 2px 20px rgb(167, 185, 192, 0.3);
+    margin-right: 8vw;
+    margin-top: 7vh;
+}
+.penjelas-head8
+{
+    position: absolute;
+    top: 419vh;
+    left: 46vw;
+}
+.kartu-9
+{
+    width: 50vw;
+    height: 35vh;
+    margin-left: 8vw;
+    margin-top: 50vh;
+    box-shadow: 2px 2px 20px rgb(167, 185, 192, 0.3);
+}
+.penjelas-head9
+{
+    position: absolute;
+    top: 460vh;
+    left: 41vw;
+}
+.kartu-10
+{
+    width: 50vw;
+    height: 35vh;
+    float: right;
+    box-shadow: 2px 2px 20px rgb(167, 185, 192, 0.3);
+    margin-right: 8vw;
+    margin-top: 7vh;
+}
+.penjelas-head10
+{
+    position: absolute;
+    top: 505vh;
+    left: 46vw;
+}
+#fb-porto
+{
+     width: 3vw;
+     position: absolute;
+     top: 560vh;
+     left: 75vw;
+}
+#ig-porto
+{
+    width: 3vw;
+    position: absolute;
+    top: 560vh;
+    left: 80vw;
+}
+#linkedin-porto
+{
+    width: 3vw;
+    position: absolute;
+    top: 560vh;
+    left: 85vw;
+}
+#twit-porto
+{
+    width: 3vw;
+    position: absolute;
+    top: 560vh;
+    left: 90vw;
+}
+
+#header-team
+{
+    height: 100vh;
+    width: 100vw;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+#article-team
+{
+    height: 290vh;
+    width: 100vw;
+    background-color: cornsilk;
+}
+.head-team
+{
+    font-family: 'Abril Fatface',
+    cursive;
+    padding-top: 40vh;
+    text-align: center;
+    font-weight: 700;
+    font-size: 10vh;
+}
+
+.kartu-team
+{
+    margin-top: 6vh;
+    width: 70vw;
+    height: 50vh;
+    margin-left: 5vw;
+    box-shadow: 2px 2px 20px rgb(167, 185, 192, 0.3);
+}
+#foto-team1
+{
+    width: 35vw;
+    height: 50vh;
+}
+.info
+{
+    position: absolute;
+    top: 159vh;
+    left: 42vw;
+}
+.head-infoteam1
+{
+    font-family: 'Abril Fatface',
+    cursive;
+    font-size: 8vh;
+}
+.infoteam-1
+{
+    font-size: 3vh;
+    font-family: 'Yanone Kaffeesatz',
+    sans-serif;
+}
+.infoteam-2
+{
+    font-size: 3vh;
+    font-family: 'Yanone Kaffeesatz',
+    sans-serif;
+    margin-top: -1vh;
+}
+.head-infoteam2
+{
+    font-family: 'Abril Fatface',
+    cursive;
+    font-size: 5vh;
+    margin-top: 10vh;
+}
+.head-infoteam3
+{
+    font-family: 'Abril Fatface',
+    cursive;
+    font-size: 3vh;
+    margin-top: -12vh;
+    margin-left: 20vw;
+}
+#fb-team1
+{
+    width: 3vw;
+    height: 6vh;
+    margin-left: 21vw;
+    margin-top: -1vh;
+}
+#ig-team1
+{
+    width: 3vw;
+    height: 6vh;
+    margin-left: 0vw;
+    margin-top: -1vh;
+}
+.kartu-team2
+{
+    margin-top: 6vh;
+    width: 70vw;
+    height: 50vh;
+    float: right;
+    margin-right: 6vw;
+    box-shadow: 2px 2px 20px rgb(167, 185, 192, 0.3);
+}
+#foto-team2
+{
+    width: 35vw;
+    height: 50vh;
+    float: right;
+}
+.info2
+{
+    position: absolute;
+    top: 215vh;
+    left: 27vw;
+}
+.head-infoteam4
+{
+    font-family: 'Abril Fatface',
+    cursive;
+    font-size: 8vh;
+}
+.kartu-team3
+{
+    margin-top: 65vh;
+    width: 70vw;
+    height: 50vh;
+    margin-left: 5vw;
+    box-shadow: 2px 2px 20px rgb(167, 185, 192, 0.3);
+}
+.info3
+{
+    position: absolute;
+    top: 274vh;
+    left: 42vw;
+}
+.kartu-team4
+{
+    margin-top: 6vh;
+    width: 70vw;
+    height: 50vh;
+    float: right;
+    margin-right: 6vw;
+    box-shadow: 2px 2px 20px rgb(167, 185, 192, 0.3);
+}
+.info4
+{
+    position: absolute;
+    top: 330vh;
+    left: 27vw;
+}
+#fb-team
+{
+    width: 3vw;
+    position: absolute;
+    top: 400vh;
+    left: 75vw;
+}
+#ig-team
+{
+    width: 3vw;
+    position: absolute;
+    top: 400vh;
+    left: 80vw;
+}
+#linkedin-team
+{
+    width: 3vw;
+    position: absolute;
+    top: 400vh;
+    left: 85vw;
+}
+#twit-team
+{
+    width: 3vw;
+    position: absolute;
+    top: 400vh;
+    left: 90vw;
+}
+
+#article-contact
+{
+    height: 100vh;
+    width: 100vw;
+    background-color: cornsilk;
+}
+#location
+{
+    position: absolute;
+    top: 18vh;
+    left: 20vw;
+}
+#location .text-location
+{
+    font-family: 'Abril Fatface',
+    cursive;
+}
+#location iframe
+{
+    position: absolute;
+    left: -13vw;
+    top: 8vh;
+}
+#contact-hp
+{
+    position: absolute;
+    top: 18vh;
+    left: 70vw;
+}
+.phone1-contact
+{
+    margin-top: 15vh;
+    margin-left: 0vw;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz',
+    sans-serif;
+    font-size: 5vh;
+    font-weight: 800;
+}
+.name-phone1
+{
+    margin-top: 2vh;
+    text-align: center;
+    font-size: 3vh;
+    font-family: 'Yanone Kaffeesatz',
+    sans-serif;
+}
+.text-hp
+{
+    font-family: 'Abril Fatface',
+    cursive;
+}
+#fb-contact
+{
+    width: 3vw;
+    position: absolute;
+    top: 110vh;
+    left: 75vw;
+}
+#ig-contact
+{
+    width: 3vw;
+    position: absolute;
+    top: 110vh;
+    left: 80vw;
+}
+#linkedin-contact
+{
+    width: 3vw;
+    position: absolute;
+    top: 110vh;
+    left: 85vw;
+}
+#twit-contact
+{
+    width: 3vw;
+    position: absolute;
+    top: 110vh;
+    left: 90vw;
+}
